@@ -1,4 +1,4 @@
-**Business Understanding**
+##**Business Understanding**##
 
 Konteks
 <br><br>
@@ -35,11 +35,11 @@ Kondisi:
 Referensi: https://www.omnisend.com/blog/ecommerce-churn/
 <br><br>
 Alasan Pemilihan Skor F2 Sebagai Metrik Evaluasi  
-<br>
+<br><br>
 Skor F2 dipilih sebagai metrik evaluasi utama untuk model prediksi churn pelanggan karena menekankan *recall* dibandingkan *precision*. Dalam kasus prediksi churn, fokus utamanya adalah mengidentifikasi sebanyak mungkin pelanggan yang berpotensi churn (*true positives*), meskipun ada risiko *false positives*.  
-<br>
+<br><br>
 Alasan utama:
-<br>
+<br><br>
 1 Biaya kehilangan pelanggan (false negative) jauh lebih tinggi daripada biaya intervensi yang tidak perlu (*false positive*). Kehilangan pelanggan secara signifikan memengaruhi pendapatan jangka panjang perusahaan e-commerce.  
 2 Dengan mengidentifikasi lebih banyak pelanggan yang berisiko churn, tim retensi dapat mengambil tindakan pencegahan lebih awal dan lebih menyeluruh, yang berpotensi menyelamatkan lebih banyak pelanggan.  
 3 Meskipun terdapat risiko *false positives*, tindakan retensi seperti promosi atau perbaikan layanan umumnya tidak merugikan pelanggan yang sebenarnya loyal.  
