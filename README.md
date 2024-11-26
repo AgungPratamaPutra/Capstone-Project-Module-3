@@ -22,4 +22,4 @@ Pendekatan analitik penulis berfokus pada pengembangan model prediktif untuk men
 <br><br>
 Metrik Evaluasi
 <br><br>
-[1_Z54JgbS4DUwWSknhDCvNTQ.webp](attachment:1_Z54JgbS4DUwWSknhDCvNTQ.webp)
+1_Z54JgbS4DUwWSknhDCvNTQ.webp
