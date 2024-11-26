@@ -32,20 +32,20 @@ Kondisi:
 3. True Negative: Pelanggan tidak churn, artinya mereka terus menggunakan layanan Bukalapak atau melakukan pembelian dalam 30-90 hari terakhir atau lebih.  
 4. False Negative (Kesalahan Tipe II): Pelanggan diprediksi tidak akan churn tetapi sebenarnya churn.  
    Konsekuensi: Risiko kehilangan banyak pelanggan yang meninggalkan layanan Bukalapak, dan anggaran yang dialokasikan untuk promosi bagi pelanggan yang berpotensi churn tidak dimanfaatkan secara optimal.  
-Referensi:</b> https://www.omnisend.com/blog/ecommerce-churn/
+Referensi: https://www.omnisend.com/blog/ecommerce-churn/
 <br><br>
 Alasan Pemilihan Skor F2 Sebagai Metrik Evaluasi  
 <br><br>
 Skor F2 dipilih sebagai metrik evaluasi utama untuk model prediksi churn pelanggan karena menekankan *recall* dibandingkan *precision*. Dalam kasus prediksi churn, fokus utamanya adalah mengidentifikasi sebanyak mungkin pelanggan yang berpotensi churn (*true positives*), meskipun ada risiko *false positives*.  
 <br><br>
 Alasan utama:
-1. Biaya kehilangan pelanggan (false negative) jauh lebih tinggi daripada biaya intervensi yang tidak perlu (*false positive*). Kehilangan pelanggan secara signifikan memengaruhi pendapatan jangka panjang perusahaan e-commerce.  
+1 Biaya kehilangan pelanggan (false negative) jauh lebih tinggi daripada biaya intervensi yang tidak perlu (*false positive*). Kehilangan pelanggan secara signifikan memengaruhi pendapatan jangka panjang perusahaan e-commerce.  
 
-2. Dengan mengidentifikasi lebih banyak pelanggan yang berisiko churn, tim retensi dapat mengambil tindakan pencegahan lebih awal dan lebih menyeluruh, yang berpotensi menyelamatkan lebih banyak pelanggan.  
+2 Dengan mengidentifikasi lebih banyak pelanggan yang berisiko churn, tim retensi dapat mengambil tindakan pencegahan lebih awal dan lebih menyeluruh, yang berpotensi menyelamatkan lebih banyak pelanggan.  
 
-3. Meskipun terdapat risiko *false positives*, tindakan retensi seperti promosi atau perbaikan layanan umumnya tidak merugikan pelanggan yang sebenarnya loyal.  
+3 Meskipun terdapat risiko *false positives*, tindakan retensi seperti promosi atau perbaikan layanan umumnya tidak merugikan pelanggan yang sebenarnya loyal.  
 
-4. Skor F2 memberikan bobot lebih besar pada *recall* (2x) dibandingkan *precision*, mencerminkan prioritas bisnis untuk secara agresif mengurangi churn.  
+4 Skor F2 memberikan bobot lebih besar pada *recall* (2x) dibandingkan *precision*, mencerminkan prioritas bisnis untuk secara agresif mengurangi churn.  
 <br><br>
 Dengan mengoptimalkan skor F2, model ini diharapkan dapat mengidentifikasi mayoritas pelanggan yang berisiko churn, memungkinkan intervensi tepat waktu dan efektif untuk mempertahankan basis pelanggan e-commerce.
 <br><br>
