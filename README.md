@@ -1,4 +1,4 @@
-# 1. Business Understanding
+1. Business Understanding
 
 Konteks
 <br><br>
@@ -32,7 +32,6 @@ Kondisi:
 3. True Negative: Pelanggan tidak churn, artinya mereka terus menggunakan layanan Bukalapak atau melakukan pembelian dalam 30-90 hari terakhir atau lebih.  
 4. False Negative (Kesalahan Tipe II): Pelanggan diprediksi tidak akan churn tetapi sebenarnya churn.  
    Konsekuensi: Risiko kehilangan banyak pelanggan yang meninggalkan layanan Bukalapak, dan anggaran yang dialokasikan untuk promosi bagi pelanggan yang berpotensi churn tidak dimanfaatkan secara optimal.  
-<br><br>
 Referensi:</b> https://www.omnisend.com/blog/ecommerce-churn/
 <br><br>
 Alasan Pemilihan Skor F2 Sebagai Metrik Evaluasi  
@@ -49,3 +48,5 @@ Alasan utama:
 4. Skor F2 memberikan bobot lebih besar pada *recall* (2x) dibandingkan *precision*, mencerminkan prioritas bisnis untuk secara agresif mengurangi churn.  
 <br><br>
 Dengan mengoptimalkan skor F2, model ini diharapkan dapat mengidentifikasi mayoritas pelanggan yang berisiko churn, memungkinkan intervensi tepat waktu dan efektif untuk mempertahankan basis pelanggan e-commerce.
+<br><br>
+Untuk penjelasan lebih lanjut dari model e-commerce churn dapat dilihat pada file notebook JSON yang terlampir. 
