@@ -41,11 +41,8 @@ Skor F2 dipilih sebagai metrik evaluasi utama untuk model prediksi churn pelangg
 Alasan utama:
 <br><br>
 1 Biaya kehilangan pelanggan (false negative) jauh lebih tinggi daripada biaya intervensi yang tidak perlu (*false positive*). Kehilangan pelanggan secara signifikan memengaruhi pendapatan jangka panjang perusahaan e-commerce.  
-
 2 Dengan mengidentifikasi lebih banyak pelanggan yang berisiko churn, tim retensi dapat mengambil tindakan pencegahan lebih awal dan lebih menyeluruh, yang berpotensi menyelamatkan lebih banyak pelanggan.  
-
 3 Meskipun terdapat risiko *false positives*, tindakan retensi seperti promosi atau perbaikan layanan umumnya tidak merugikan pelanggan yang sebenarnya loyal.  
-
 4 Skor F2 memberikan bobot lebih besar pada *recall* (2x) dibandingkan *precision*, mencerminkan prioritas bisnis untuk secara agresif mengurangi churn.  
 <br><br>
 Dengan mengoptimalkan skor F2, model ini diharapkan dapat mengidentifikasi mayoritas pelanggan yang berisiko churn, memungkinkan intervensi tepat waktu dan efektif untuk mempertahankan basis pelanggan e-commerce.
