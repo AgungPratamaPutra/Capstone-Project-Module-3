@@ -40,7 +40,6 @@ Alasan Pemilihan Skor F2 Sebagai Metrik Evaluasi
 Skor F2 dipilih sebagai metrik evaluasi utama untuk model prediksi churn pelanggan karena menekankan *recall* dibandingkan *precision*. Dalam kasus prediksi churn, fokus utamanya adalah mengidentifikasi sebanyak mungkin pelanggan yang berpotensi churn (*true positives*), meskipun ada risiko *false positives*.  
 <br><br>
 Alasan utama:
-<br><br>
 1. Biaya kehilangan pelanggan (false negative) jauh lebih tinggi daripada biaya intervensi yang tidak perlu (*false positive*). Kehilangan pelanggan secara signifikan memengaruhi pendapatan jangka panjang perusahaan e-commerce.  
 
 2. Dengan mengidentifikasi lebih banyak pelanggan yang berisiko churn, tim retensi dapat mengambil tindakan pencegahan lebih awal dan lebih menyeluruh, yang berpotensi menyelamatkan lebih banyak pelanggan.  
